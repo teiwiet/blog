@@ -27,16 +27,11 @@ app.use(cookieParser());
 
 //cors 
 if (process.env.NODE_ENV == "development") {
-
     app.use(cors({origin : `${process.env.CLIENT_URL}`}));
 }
 
 app.use(blogRoutes);
 app.use(authRoutes);
-// routes
-// app.get("/api", (req, res, next) => {
-//     res.json({ time: Date().toString() });
-// })
 
 app.use((req,res,next)=>{
     res.write("<p>Error 404 not found!</p>");
