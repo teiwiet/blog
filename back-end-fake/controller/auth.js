@@ -1,4 +1,4 @@
-exports.sign_up = (req,res,nest)=>{
-    const {name,email,password}  = req.body
-    res.json({user : name,email,password});
+exports.signup = (req,res,next)=>{
+    const {email,name,password} = req.body;
+    res.json({user : email,name,password});
 }
