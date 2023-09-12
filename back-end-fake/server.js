@@ -21,7 +21,7 @@ mongoose.connect(process.env.DATABASE_CLOUD,{useNewUrlParser : true})
 app.use(morgan("dev"));
 app.use(bodyParser.json());
 app.use(cookieParser());
-
+//lmao 
 
 
 app.use(blogRoutes);
