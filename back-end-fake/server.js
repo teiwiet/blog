@@ -24,8 +24,8 @@ app.use(cookieParser());
 app.use(blogRoutes);
 app.use(authRoutes);
 
-app.use((req,res,next)=>{
-    res.send("<h1>Oops! We can't find the page you're looking for</h1>");
+app.use((req,response,next)=>{
+    response.send("<h1>Oops! We can't find the page you're looking for</h1>");
 });
 
 const port = process.env.PORT || 80;
