@@ -1,7 +1,0 @@
-express-validator
-jsonwebtoken
-express-jwt 
-formidable 
-lodash
-slugify 
-string-strip-html
