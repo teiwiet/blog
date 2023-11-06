@@ -1,4 +1,0 @@
-npm i react-router-dom axios redux react-redux @reduxjs/toolkit react-hot-toast moment
-## Cringe
-
-Here is the link [https://te.vn](https://tinhte.vn)
