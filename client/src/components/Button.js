@@ -8,7 +8,7 @@ function Button({ title, onClick, variant='primary-contained', disabled }) {
        ${variant==='primary-contained' && 'bg-primary text-white'} 
        ${variant==='primary-outlined' && 'border-primary text-primary bg-white border'} 
        ${disabled && 'opacity-50 cursor-not-allowed'} 
-     
+    
      `}
     >
       {title}
